@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<title>¡Bienvenido! | El Querubín</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="nosotros.css">
+	<link rel="shortcut icon" type= "image/svg" href="ciberlogos/web.svg">
+</head>
+<body style='text-align:center;overflow: hidden;' class="home">
+<video id="fondo" src="roses.mp4" autoplay muted loop></video>
+		<header>
+			<div id="titulo_menu">Florería | El Querubín</div>
+			<input type="checkbox" id="btn_menu">
+			<label for="btn_menu">
+				<img id="menu" src="icons/menu.png" alt=""/>
+			</label>
+				<nav class="menu">
+					<ul class="izq">
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="nosotros.html">Conócenos</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+						<li><a href="coleccion.html">Colección</a></li>
+						<li><a href="blog.html">Blog</a></li>
+					</ul>
+					<ul class="der">
+						<li><a href="login.html">Cliente</a></li>
+						<li><a href="registro.html">Florista</a></li>
+					</ul>
+				</nav>
+		</header>
+		<div class="portada">
+			<img id="logo" src="img/logo.png"/>
+			<img id="logophone" src="img/logophone.svg"/>	
+   			<h2 id="slogan" class="animate__animated animate__heartBeat animate__delay-3s animate__repeat-3" style="animation-iteration-count: infinite;text-shadow: 0px 0px 30px rgba(0, 255, 255,0.6);
+;">¡Del Cielo <span id="salto">a tu Corazón!</span></h2>
+		<button class="btn_enviar" type="button" onclick="">Enviar flores</button>
+		</div>
+		<footer>
+			El Querubín Florería &copy; 2020
+		</footer>
+		<script type="text/javascript" src="slogan.js"></script>
+</body>
+</html>

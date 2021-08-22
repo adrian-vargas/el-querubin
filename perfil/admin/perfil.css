@@ -1,0 +1,145 @@
+.titulo .logo{
+	width: 40px;
+	height: auto;
+	vertical-align: middle;
+
+}
+
+*{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+.titulo{
+	background: brown;
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 24px;
+	font-family: 'Raleway', sans-serif;
+	height:40px;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+}
+.foto{
+	width: 4em;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	background: #ff5050;
+}
+.navbar{
+	background: white;
+
+}
+.right{
+	width: 22vw;
+	float: right;
+}
+
+.fas{
+	font-size: 1.5em;
+}
+a.active,a:hover{
+	cursor: pointer;
+	display: block;
+	background: rgb(153, 0, 0);
+	transition: .5s;
+}
+.left label,
+a{
+	color: #ff0000;
+}
+.right ul li a{
+	display: flex;
+	height:60px;
+	justify-content: center;
+}
+.right ul li a{
+	display: flex;
+	height:60px;
+	justify-content: center;
+}
+.right img{
+	justify-content: center;
+}
+
+.navbar .right ul li{
+	position: relative;
+}
+.navbar.right ul li .dropdown{
+	padding: 20px;
+	height: 180px;
+	top: 90px;
+	background: white;
+	display: none;
+}
+
+.right ul li.active .dropdown{
+	display: block;
+}
+.dropdown ul li a{
+	height: 40px;
+	padding-top: 20px;
+}
+.left{
+	width: 78vw;
+	float: left;
+}
+#btn-menu{
+	display: none;
+}
+.left label{
+	display: none;
+	width: 20px;
+	height: 20px;
+	padding: 20px;
+}
+.left label:hover{
+	cursor: pointer;
+	background: rgb(153, 0, 0);
+	transition: .5s;
+}
+.menu ul{
+	margin:0;
+	padding: 0;
+	display: flex;
+}
+.menu li:hover{
+	background: background: rgb(153, 0, 0); 
+}
+.menu li a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	padding: 20px;
+}
+@media (max-width: 500px){
+	.left{
+		width: 55vw;
+	}
+	.right{
+		width: 45vw;
+	}
+	.left label{
+		display: block;
+	}
+	.menu{
+		position: absolute;
+		background: white;
+		width: 60px;
+		margin-left: -60px;
+		transition: all 0.5s;
+	}
+	.menu ul{
+		flex-direction: column;
+	}
+	.menu li{
+		border-top: 1.5px solid #ff0000;
+	}
+	#btn-menu:checked ~ .menu{
+		margin: 0;
+	}
+}

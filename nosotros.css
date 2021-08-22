@@ -1,0 +1,156 @@
+.nosotros{
+	margin-top: 48px;
+	width: 100%;
+	text-align: center;
+}
+.nosotros h1{
+	background-color: rgba(153, 0, 0, 0.8);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px
+}
+
+.block1{
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(0, 0, 153, 0.8);
+	color: white;
+	padding-top: 10px;
+	font-size: 12px;
+}
+.block2{
+	font-family: 'Raleway', sans-serif;
+	background-color: white;
+	color: white;
+	padding-top: 10px;
+	font-size: 12px;
+}
+.nosotros h2{
+	font-family: 'Raleway', sans-serif;
+}
+.ceos img{
+	width: 15%;
+	margin: 5%;
+	margin-bottom: -2%;
+	margin-top: 0px;
+	height: auto;
+}
+.cargo {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	margin: 2.8%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	min-width: 20%;
+	height: 7%;
+	background-color: #cc6699;
+	color: white;
+	vertical-align: middle;
+}
+
+.nom{
+	display: inline-block;
+	margin: 2%;
+	margin-left: 7.4%;
+	margin-right: 7.4%;
+	min-width: 10%;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	background-color: gold;
+}
+.servicios img{
+	vertical-align: middle;
+	width: 12%;
+	margin: 3%;
+	height: auto;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.venta{
+	display: inline-flex;
+	justify-content: center;
+	margin: 3%;
+	margin-bottom: 0;
+	margin-top: 0;
+	width: 12%;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	background-color: gold;
+}
+
+
+
+#footer{
+	background: rgba(0,0,0,0.9);
+	bottom: 0;
+	width: 100%;
+	height: 20px;
+	color: white;
+	text-align: center;
+	line-height: 23px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.botones{
+	text-align: center;
+	text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #00cc00;
+    border-radius: 10px;
+    border: 2px solid gray;
+    margin-bottom: 0%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+	width: 12%;
+}
+.botones:hover{
+	color: #00cc00;
+    background-color: #ffffff;
+}
+.block2 h2{
+	color: black;
+	display: inline-flex;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+}
+.circulo{
+	width: 5vw;
+	height: 5vw;
+	border-radius: 50%;
+	background: red;
+	font-size: 18px;
+	justify-content: center;
+	align-items: center;	
+	font-family: 'Raleway', sans-serif;
+}
+@media (max-width:600px){
+	.cargo {
+		font-size: 3.5vw;
+	}
+
+	.nom{
+		font-size: 3.8vw;
+	}
+	.circulo{
+	width: 8vw;
+	height: 8vw;
+	font-size: 5vw;
+	}
+	.botones{
+		font-size: 3.8vw;
+		width:35%;
+	}
+	.venta{
+		font-size: 3.8vw;
+		width:35%;
+	}
+	.servicios img{
+		width:25%;
+		margin-left: 10%;
+		margin-right:10%;
+	}
+}

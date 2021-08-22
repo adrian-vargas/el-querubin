@@ -1,0 +1,30 @@
+.contrato{
+	margin-top: 48px;
+	width: 100%;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+.contrato h1{
+    text-align: center;
+	background-color: rgba(153, 0, 0, 0.8);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px
+}
+.contrato h2{
+    color: white;
+    font-weight: bold;
+}
+.contrato .base{
+    width: 80vw;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    background-color: rgba(153, 0, 51, 0.7);
+    color: white;
+    min-height: 80vh;
+    padding: 1.5em;
+}

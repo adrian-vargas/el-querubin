@@ -1,0 +1,5 @@
+[0523/181014.683:ERROR:process_info.cc(329)] VirtualQueryEx: Acceso denegado. (0x5)
+[0523/181014.714:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0523/181014.729:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0523/181014.729:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Se intentó obtener acceso a un proceso que está cerrándose. (0xc000010a)
+[0531/134005.616:ERROR:settings.cc(320)] Settings magic is not 1129342067
